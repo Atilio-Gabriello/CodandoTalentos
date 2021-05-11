@@ -1,5 +1,49 @@
+:root{
+    --main-color: linear-gradient(90deg,#426980,#bad6ff);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #f0f0f9;
+    -webkit-font-smoothing: antialiased;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--main-color);
+    height: 112px;
+}
+
+.header h4{
+    margin: 22px 17px;
+    font-size: 57px;
+    color: white;
+    font-weight: 400;
+}
+
+
+.header img{
+    margin: 15px 30px;
+    height: 80px;
+    width: 80px;
+}
+
+.header a:hover{
+    transition: 0.25s;
+    opacity: 0.5;
 }
