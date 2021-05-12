@@ -57,9 +57,9 @@ a{
 .content{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 45px;
     height: 450px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .content img{
@@ -71,8 +71,8 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #f0f0f0d0;
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.212);
+    background-color: #ffffffd0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212);
     border-radius: 1%;
     width: 40%;
     border: 2px grey;
@@ -83,9 +83,83 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 25px;
+    margin: 15px 25px;
 }
 
 .field input{
-    
+    width: 95%;
+    height: 45px;
+    margin: 12px 0;
+    border-radius: 1%;
+    border: 1px solid grey;
+}
+
+.field input:hover{
+   border: 1px solid aqua;
+}
+
+.field input:focus{
+    box-shadow: 0 0 1em aqua;
+}
+
+.field p{
+    color: red;
+    margin: -7px 18px 0;
+    align-self: flex-start;
+    font-size: 12px;
+}
+
+.fim_login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fim_login button{
+    background-color: #79bee6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4%;
+    font-size: 15px;
+    margin: 30px 0;
+    cursor: not-allowed;
+}
+
+.fim_login p{
+    font-size: 15px;
+}
+
+.fim_login a{
+    font-size: 15px;
+    color: #66a3c7;
+}
+
+.rodape{
+    width: 90%;
+    display: flex;
+    font-size: 20px;
+    height: 45px;
+    margin-top: 5%;
+    background: var(--main-color);
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    border: 0;
+    border-radius: .25rem;
+}
+
+.rodape p{
+    color: rgb(87, 87, 87);
+    margin-right: 5px;
+}
+
+.rodape a{
+    color: white;
+    margin: 4px 3px 0;
+}
+
+.rodape a:hover{
+    transition: 0.25s;
+    opacity: 0.5;
 }
