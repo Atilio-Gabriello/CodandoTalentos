@@ -13,12 +13,13 @@ html{
 }
 
 body{
-    background: #f0f0f9;
+    background: #ececee;
     -webkit-font-smoothing: antialiased;
 }
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 .header{
@@ -46,4 +47,45 @@ a{
 .header a:hover{
     transition: 0.25s;
     opacity: 0.5;
+}
+
+.voltar{
+    font-size: 20px;
+    margin: 12px 15px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 450px;
+    font-weight: 400;
+}
+
+.content img{
+    width: 55%;
+    margin-right: 0.5%;
+}
+
+.content form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f0f0f0d0;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.212);
+    border-radius: 1%;
+    width: 40%;
+    border: 2px grey;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.field input{
+    
 }
