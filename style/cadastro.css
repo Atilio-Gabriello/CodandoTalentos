@@ -1,0 +1,84 @@
+:root{
+    --main-color: linear-gradient(90deg,#426980,#bad6ff);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #ececee;
+    -webkit-font-smoothing: antialiased;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--main-color);
+    height: 112px;
+}
+
+.header h4{
+    margin: 22px 17px;
+    font-size: 57px;
+    color: white;
+    font-weight: 400;
+}
+
+
+.header img{
+    margin: 15px 30px;
+    height: 80px;
+    width: 80px;
+}
+
+.header a:hover{
+    transition: 0.25s;
+    opacity: 0.5;
+}
+
+.voltar{
+    font-size: 20px;
+    margin: 12px 15px;
+}
+
+.rodape{
+    width: 90%;
+    display: flex;
+    font-size: 20px;
+    height: 45px;
+    margin-top: 5%;
+    background: var(--main-color);
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    border: 0;
+    border-radius: .25rem;
+}
+
+.rodape p{
+    color: rgb(87, 87, 87);
+    margin-right: 5px;
+}
+
+.rodape a{
+    color: white;
+    margin: 4px 3px 0;
+}
+
+.rodape a:hover{
+    transition: 0.25s;
+    opacity: 0.5;
+}
