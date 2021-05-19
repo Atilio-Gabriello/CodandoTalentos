@@ -59,19 +59,49 @@ a{
     flex-direction: column;
     box-shadow: 0 0 1em grey;
     align-items: center;
-    width: 50%;
-    font-size: 24px;
-    margin-left: 25%;
+    width: 47%;
+    font-size: 28px;
+    margin: 2% 0 0 27%;
     background-color: rgb(250, 250, 250);
     border-radius: .25em;
+}
+
+.box-cadastro p{
+    margin-top: 20px;
+}
+
+form .field{
+    display: flex;
+    flex-direction: column;
+    margin: 28px 0;
+    font-size: 15px;
+}
+
+form .field input{
+    margin-top: 3px;
+    border-radius: .25em;
+    border: solid thin #e6e6e6;
+    width: 65em;
+    height: 3.5em;
+}
+
+.box-cadastro button{
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: #00a3cc;
+    border: solid thin #00a3cc;
+    border-radius: .25em;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
 }
 
 .rodape{
     width: 90%;
     display: flex;
     font-size: 20px;
-    height: 45px;
-    margin-top: 5%;
+    height: 40px;
+    margin-top: 3%;
     background: var(--main-color);
     justify-content: center;
     align-items: center;
