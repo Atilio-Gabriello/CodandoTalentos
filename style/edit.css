@@ -37,7 +37,6 @@ a{
     font-weight: 400;
 }
 
-
 .header img{
     margin: 15px 30px;
     height: 80px;
@@ -49,7 +48,12 @@ a{
     opacity: 0.5;
 }
 
-.root-box{
+.voltar{
+    font-size: 20px;
+    margin: 12px 15px;
+}
+
+.cadastros{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,43 +65,17 @@ a{
     border-radius: .25em;
 }
 
-.root-box p{
+.cadastros p{
     margin: 20px 0;
 }
 
-.login,
-.signup,
-.edit,
-.delete{
-    text-align: center;
-    margin: 15px 0;
-    font-size: 20px;
-}
-
-.login ion-icon{
-    margin-right: 5px;
-    font-size: 40px;
-    color: #3399ff;
-}
-
-.signup ion-icon{
-    margin-left: 8px;
-    font-size: 40px;
-    color: #3399ff;
-}
-
-.edit ion-icon{
-    margin-left: 2px;
-    font-size: 40px;
-    color: #3399ff;
-}
-
-.signup:hover,
-.login:hover,
-.delete:hover,
-.edit:hover{
-    transition: opacity 0.25s;
-    opacity: 0.60;
+.cadastrado{
+    border: solid thin grey;
+    border-radius: .25em;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .rodape{
