@@ -70,12 +70,52 @@ a{
 }
 
 .cadastrado{
-    border: solid thin grey;
+    border: solid 1px grey;
     border-radius: .25em;
     display: flex;
     width: 80%;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+.cadastrado p{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.botoes{
+    margin: 0 1% 0.4% 0;
+    font-size: 25px;
+}
+
+.botoes button{
+    padding: 5px;
+    border-radius: .50em;
+}
+
+#botao1{
+    color: white;
+    border: solid 1px blue;
+    background-color: blue;
+}
+
+#botao1:hover{
+    transition: 0.5s;
+    color: blue;
+    background-color: white;
+}
+
+#botao2{
+    color: white;
+    border: solid 1px red;
+    background-color: red;
+}
+
+#botao2:hover{
+    transition: 0.5s;
+    color: red;
+    background-color: white;
 }
 
 .rodape{
